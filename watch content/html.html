@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>watch Content</title>
+</head>
+
+<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+        .uni-content {
+            font-family: Arial;
+            font-size: 15px;
+            color: #202020;
+            padding: 25px;
+        }
+
+        .uni-content p {
+            font-size: 15px;
+            line-height: 24px;
+            padding-bottom: 25px;
+            font-family: Verdana, Geneva, sans-serif;
+        }
+
+        .uni-content p:last-child {
+            padding-bottom: 0;
+        }
+
+        .uni-content a {
+            color: #06c;
+            font-size: 15px;
+        }
+
+        .uni-content figure {
+            background: none;
+            border: 0;
+            border-radius: 0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .uni-content figure img {
+            max-width: 100% !important;
+            height: auto !important;
+        }
+
+        .uni-title {
+            font-family: arial;
+            font-size: 28px;
+            margin-bottom: 5px;
+        }
+
+        .uni-content .sub-title {
+            font-size: 20px;
+            margin: 0 0 15px 0;
+        }
+
+        .uni-content .item {
+            display: inline-block;
+            margin: 25px 0;
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+        }
+
+        .uni-content .item.left figure {
+            float: left;
+            margin-right: 25px;
+            margin-bottom: 25px;
+        }
+
+        .uni-content .item.right figure {
+            float: right;
+            margin-left: 40px;
+            margin-bottom: 25px;
+        }
+
+        .uni-content table {
+            width: 100% !important;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+        .uni-content table,
+        th,
+        td {
+            border: 1px solid white;
+            border-collapse: collapse;
+            font-family: Verdana, Geneva, sans-serif;
+
+        }
+
+        .uni-content th,
+        td {
+            padding: 15px;
+            text-align: left;
+        }
+
+        .uni-content #t01 tr:nth-child(even) {
+            background-color: #eee;
+        }
+
+        .uni-content #t01 tr:nth-child(odd) {
+            background-color: #fff;
+        }
+
+        .uni-content #t01 th {
+            background-color: #43424b !important;
+            color: white !important;
+        }
+
+        .unicontent-flex-container {
+            display: flex;
+            justify-content: center;
+        }
+
+
+        /* Responsive layout - Apply this for devices under 800 px */
+        @media screen and (max-width: 800px) {
+            div center iframe {
+                flex: 100%;
+                max-width: 100%;
+                height: auto;
+            }
+        }
+
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+            div center iframe {
+                flex: 100%;
+                max-width: 100%;
+                height: auto;
+            }
+    </style>
+
+    <section class="uni-content">
+        <h2 class="sub-title">title h2</h2>
+
+        <div>
+            <center>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/JV2Bc8GkldQ"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen=""></iframe>
+            </center>
+            <br />
+        </div>
+        <p style="
+          color: rgb(68, 68, 68);
+          font-weight: bold;
+          font-size: 20px;
+          line-height: 30px;
+          text-align: center;
+        ">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, suscipit doloremque rem quia, veritatis
+            molestiae vero repellat voluptatibus, id impedit explicabo veniam. Quae architecto id iusto laboriosam aut
+            reprehenderit voluptatem.
+        </p>
+
+        <p style="
+          text-align: center;
+          background-image: linear-gradient(
+            to right top,
+            #d16ba5,
+            #c777b9,
+            #ba83ca,
+            #aa8fd8,
+            #9a9ae1,
+            #8aa7ec,
+            #79b3f4,
+            #69bff8,
+            #52cffe,
+            #41dfff,
+            #46eefa,
+            #5ffbf1
+          );
+          padding: 50px;
+          color: white;
+          border-radius: 5px;
+        ">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet repellat commodi rem eligendi fugiat
+            officiis ipsam. Porro sequi placeat labore dicta assumenda eligendi, tempore temporibus animi quidem! Magni,
+            inventore repudiandae.
+        </p>
+
+        <br /><br />
+        <div class="unicontent-flex-container">
+            <div>
+                <figure>
+                    <img src="https://m.media-amazon.com/images/I/71IbtYa4G1S._UX342_.jpg"
+                        style="width: 415px; height: 415px" />
+                </figure>
+            </div>
+
+            <div>
+                <figure>
+                    <img src="https://m.media-amazon.com/images/I/71IbtYa4G1S._UX342_.jpg"
+                        style="width: 415px; height: 415px" />
+                </figure>
+            </div>
+        </div>
+        <br /><br />
+
+        <div style="max-width: 900px; margin-left: auto; margin-right: auto">
+            <h3 class="sub-title" style="text-align: left">
+                <br />title
+            </h3>
+            <p style="text-align: left">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere provident aut laudantium perferendis
+                aspernatur odio quaerat odit rerum in ut vitae asperiores repellat quam, sint harum repellendus, aliquam
+                nihil fuga.
+            </p>
+
+            <h3 class="sub-title" style="text-align: right">
+                <br />title
+            </h3>
+            <p style="text-align: right">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat dolorum dolore, incidunt sapiente quam
+                rem quod a repellat natus. Minus nulla voluptas doloribus harum eum veniam ipsa maiores amet in?
+            </p>
+
+            <hr style="width: 50%; text-align: center" />
+
+            <div style="
+            background-color: #292d30;
+            padding: 15px;
+            border-radius: 10px;
+            color: white;
+          ">
+                <h3 class="sub-title" style="text-align: center"><br />title</h3>
+                <p style="text-align: center">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum
+                    facere labore, veritatis cum voluptas, quas itaque nisi rem
+                    accusamus soluta provident quasi aliquam? Quidem at atque natus
+                    obcaecati sint quasi.
+                </p>
+            </div>
+        </div>
+
+        <br /><br />
+
+        <div class="item right">
+            <figure>
+                <img src="https://m.media-amazon.com/images/I/71IbtYa4G1S._UX342_.jpg" alt="görsel2"
+                    style="width: 366px; height: 366px" />
+            </figure>
+            <h3 class="sub-title"><br />title</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+                voluptatibus iusto nostrum, aperiam saepe sapiente porro corrupti
+                similique eum omnis a harum molestias architecto odio, dolorum esse
+                culpa, alias repellendus?
+            </p>
+
+            <h3 class="sub-title">title</h3>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+                magni enim numquam! Odit omnis obcaecati similique asperiores beatae
+                eveniet, blanditiis neque dolor, nobis id dolores animi voluptas sunt
+                deserunt officia!
+            </p>
+            <h3 class="sub-title">title</h3>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae dicta
+                quisquam dolorem modi consectetur eligendi magnam, maiores, laborum
+                quo dolorum rerum quos nihil qui voluptates nobis natus, dignissimos
+                eius vel.
+            </p>
+        </div>
+
+        <div class="item left">
+            <figure>
+                <img src="https://m.media-amazon.com/images/I/71IbtYa4G1S._UX342_.jpg" alt="görsel2"
+                    style="width: 367px; height: 367px" />
+            </figure>
+            <h3 class="sub-title"><br />title</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus
+                eum natus id quas adipisci dignissimos amet, odio perferendis dolor
+                provident velit! Vero sunt possimus accusantium voluptatem officiis
+                doloremque aliquam quam./p>
+            </p>
+
+            <h3 class="sub-title">24 spor modu</h3>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem, ad!
+                Odit nesciunt, tempora facilis asperiores ad aspernatur repellendus
+                nemo eveniet debitis accusantium sequi a cum, voluptate neque dolor
+                aliquam hic.
+            </p>
+
+            <h3 class="sub-title">title</h3>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus,
+                tempore. Facilis nobis inventore officiis dolore quidem fugiat sunt
+                nemo? Nulla hic deserunt est odit eaque quod quas rem repellendus
+                saepe.
+            </p>
+        </div>
+        <hr style="width: 50%; text-align: center" />
+        <div style="max-width: 900px; margin-left: auto; margin-right: auto">
+            <h3 class="sub-title"><br />title</h3>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non nostrum
+                qui vero. Iusto omnis dicta, similique molestiae voluptatum,
+                accusantium quae delectus necessitatibus laborum tempora nobis vel.
+                Placeat iusto incidunt praesentium!
+            </p>
+            <h3 class="sub-title">title</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus eos ab
+                aperiam quos! Excepturi libero labore quisquam quae eius cum iure
+                voluptatum enim consequatur odio cupiditate laudantium, iste ea
+                distinctio!
+            </p>
+            <h3 class="sub-title">title</h3>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, at modi
+                ratione repellat distinctio quisquam eveniet perferendis possimus
+                quasi, earum officiis maxime commodi qui eius, alias nesciunt dolores
+                nam non.
+            </p>
+            <h3 class="sub-title"><br />Title</h3>
+
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam ullam,
+                laboriosam totam officia minus eos, amet, labore deleniti odit atque
+                eaque reiciendis optio sed perspiciatis! Dolorum impedit ratione quis
+                at?
+            </p>
+        </div>
+
+        <hr style="width: 50%; text-align: center" />
+        <div style="max-width: 900px; margin-left: auto; margin-right: auto">
+            <div class="item left">
+                <figure>
+                    <img src="https://m.media-amazon.com/images/I/71IbtYa4G1S._UX342_.jpg" alt="İmage"
+                        style="width: 281px; height: 281px" />
+                </figure>
+                <h3 class="sub-title"><br />Title</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+                    officiis voluptate corporis ad inventore, repellat aliquid quis
+                    placeat. Ipsum incidunt a, amet nihil ex magni neque officia veniam
+                    nulla iste?
+                </p>
+            </div>
+        </div>
+        <br />
+        <table class="uni-content" id="t01" style="text-align: center">
+            <tbody>
+                <tr>
+                    <td>1111111</td>
+                    <td>11111111</td>
+                </tr>
+                <tr>
+                    <td>1111111</td>
+                    <td>11111111</td>
+                </tr>
+                <tr>
+                    <td>1111111</td>
+                    <td>11111111</td>
+                </tr>
+
+                <tr>
+                    <td>1111111</td>
+                    <td>11111111</td>
+                </tr>
+
+                <tr>
+                    <td>1111111</td>
+                    <td>11111111</td>
+                </tr>
+
+                <tr>
+                    <td>1111111</td>
+                    <td>11111111</td>
+                </tr>
+
+                <tr>
+                    <td>1111111</td>
+                    <td>11111111</td>
+                </tr>
+
+                <tr>
+                    <td>1111111</td>
+                    <td>11111111</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+
+</html>
